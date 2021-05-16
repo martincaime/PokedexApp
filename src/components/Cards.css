@@ -1,0 +1,13 @@
+.noPokemons {
+  color: rgb(70, 70, 70);
+  font-size: 15px;
+  text-align: center;
+  margin-top: 225px;
+}
+
+.pokeSearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,85 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(255, 50, 50);
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+}
+
+.pokeLogo {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.searchBar {
+  margin-right: 20px;
+}
+
+.searchInput {
+  font-family: 'pokemon-font', 'Courier New', Courier, monospace;
+  background-color: white;
+  color: rgb(50, 50, 50);
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.searchButton {
+  font-family: 'pokemon-font', 'Courier New', Courier, monospace;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: rgb(50, 50, 50);
+  margin-left: 10px;
+  padding: 5px;
+  background-color: rgb(0, 200, 0);
+  color: white;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+  background-color: rgb(0, 175, 0); 
+}
+
+.randomPokemon {
+  font-family: 'pokemon-font', 'Courier New', Courier, monospace;
+  background-color: rgb(100, 100, 255);
+  margin-right: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.randomPokemon:hover {
+  cursor: pointer;
+  background-color: rgb(50, 50, 255);
+}
+
+.randomPokemon:active {
+  background-color: rgb(100, 100, 255);
+}
+
+.myTeam {
+  color: white;
+  text-decoration: none;
+}
+
+.aboutNav {
+  color: white;
+  text-decoration: none;
+}

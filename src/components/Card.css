@@ -1,0 +1,206 @@
+.card {
+  display:block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(50, 50, 50);
+  width: 315px;
+  height: 215px;
+  margin: 15px;
+  font-family: 'pokemon-font', 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+.buttonClose {
+  font-size: 14px;
+  font-family: 'pokemon-font', 'Courier New', Courier, monospace;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(255, 50, 50);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.buttonClose:hover {
+  cursor: pointer;
+  background-color: rgb(255, 25, 25);
+}
+
+.buttonClose:active {
+  background-color: rgb(255, 50, 50);
+}
+
+.buttonInfo {
+  font-size: 14px;
+  font-family: 'pokemon-font', 'Courier New', Courier, monospace;
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+  background-color: rgb(100, 100, 255);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px; 
+}
+
+.buttonInfo:hover {
+  cursor: pointer;
+  background-color: rgb(50, 50, 255);
+}
+
+.buttonInfo:active {
+  background-color: rgb(100, 100, 255);
+}
+
+.buttonTeam {
+  cursor: pointer;
+  position: absolute;
+  bottom: 177px;
+  right: 280px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.active {
+  width: 20px;
+}
+
+.inactive {
+  width: 20px;
+  filter: grayscale(1);
+}
+
+.nameId {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  padding-top: 5px;
+
+}
+
+h3 {
+  margin: 10px;
+}
+
+span {
+  margin-left: 10px;
+  padding: 2px 6px;
+  border-radius: 5px;
+  border: solid 1px rgb(50, 50, 50);
+}
+
+.types {
+  text-align: justify;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.heightInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 22px;
+}
+
+.weightInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.height, .weight {
+  margin-left: 5px;
+}
+
+.pokemonIcon {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  height: 120px;
+}
+
+.pokemonName {
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+
+.normal{
+  background-color: rgba(40, 40, 40, 0.4);
+}
+
+.fire{
+  background-color: rgba(255, 115, 0, 0.7);
+}
+
+.water{
+  background-color: rgba(125, 125, 255, 0.7);
+}
+
+.grass{
+  background-color: rgba(110, 255, 110, 0.7);
+}
+
+.electric{
+  background-color: rgba(255, 255, 107, 0.7);
+}
+
+.ice{
+  background-color: rgba(180, 190, 255, 0.7)
+}
+
+.fighting{
+  background-color: rgba(160,80,45,0.4);
+}
+
+.poison{
+  background-color: rgba(225, 0, 255, 0.7);
+}
+
+.ground{
+  background: linear-gradient(180deg, rgba(255,255,105,0.7), rgba(160,80,45,0.4));
+}
+
+.flying{
+  background: linear-gradient(180deg, rgba(0, 190, 225, 0.7), rgba(0,0,0,0.4));
+}
+
+.psychic{
+  background-color: rgba(240, 130, 240, 0.7);
+}
+
+.bug{
+  background-color: rgba(150, 200, 50, 0.7);
+}
+
+.rock{
+  background-color: rgba(160, 130, 45, 0.7);
+}
+
+.ghost{
+  background-color: rgba(125, 0, 100, 0.7);
+}
+
+.dragon{
+  background: linear-gradient(180deg, rgba(125,125,255,0.7), rgba(255,115,0,0.7));
+}
+
+.dark{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.steel{
+  background-color: rgba(45, 45, 45, 0.4);
+}
+
+.fairy{
+  background-color: rgba(255, 190, 200, 0.7);
+}

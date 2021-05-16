@@ -1,0 +1,25 @@
+.evolutions {
+  color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+}
+
+.evolutionsTitle {
+  color: rgb(50, 50, 50);
+  text-align: center;
+  font-size: 25px;
+}
+
+.evolutionsName {
+  text-align: center;
+}
+
+.evolutionsIcon {
+  height: 120px;
+  border:rgb(50, 50, 50) solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 15px;
+}
